@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.hongshu</groupId>
-    <artifactId>springboot-container</artifactId>
+    <artifactId>D010-springboot-container</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>

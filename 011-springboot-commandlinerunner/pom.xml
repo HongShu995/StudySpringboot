@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.hongshu</groupId>
-    <artifactId>commandlinerunner</artifactId>
+    <artifactId>D011-commandlinerunner</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
