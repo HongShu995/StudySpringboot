@@ -10,10 +10,16 @@
         <input type="submit" value="注册学生">
     </form>
     <br/>
-    <h3>更新</h3>
-    <form action="student/1/5" method="post">
+    <h3>测试rest支持请求的方式</h3>
+    <form action="student/test" method="post">
         <input type="submit" value="更新">
-        <input >
+        <input type="hidden" name="_method" value="put">
+    </form>
+    <br/>
+    <h3>测试rest支持请求的方式</h3>
+    <form action="student/testdelete" method="post">
+        <input type="submit" value="更新">
+        <input type="hidden" name="_method" value="delete">
     </form>
     <br/>
 </body>

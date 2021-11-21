@@ -24,6 +24,14 @@ public class MyRestController
         return "查询学生的id为："+stuId;
     }
 
+
+    //请求方式和url一起要唯一
+    //@GetMapping("/student/{age}")
+    //public String queryStudentAge(@PathVariable(value = "age")Integer age)
+    //{
+    //    return "查询学生的年龄为："+age;
+    //}
+
     /***
      * 创建资源 Post请求方式
      * http://localhost:8080/student/zhangsan/20
@@ -53,5 +61,11 @@ public class MyRestController
     @DeleteMapping("/student/{id}")
     public String removeStudentById(@PathVariable Integer id){
         return "删除资源，执行delete， id="+id;
+    }
+
+    @PutMapping("/student/test")
+    public String test()
+    {
+        return "执行student/test，使用请求方式为put";
     }
 }
